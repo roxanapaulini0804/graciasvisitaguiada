@@ -1,0 +1,36 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+
+.bloque4 {
+    background-color: black;
+    text-align: center;
+    padding: 5rem;
+}
+
+.bloque4Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bloque4Title img.logo {
+    max-width: 100%; /* Asegura que el logo no se salga del contenedor */
+    height: 10rem; /* Mantiene las proporciones */
+    display: block; /* Elimina espacios adicionales causados por inline elements */
+    margin: 0 auto; /* Centra el logo horizontalmente */
+    
+}
+
+.bloque4Title h4 {
+    font-size: 1.5rem;
+    padding:-5rem auto;
+    
+    height: 1.5rem;
+    margin: 0;
+    text-align: left;
+    font-weight: normal;
+    color: #FFFFFF;
+}
